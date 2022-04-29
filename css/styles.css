@@ -1,13 +1,15 @@
 .body {
     background-color: #E5E5E5;
-    color: #212121;;
-    font-family: 'Roboto';
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
 }
-.navigation-logo {
+/*стили для шапки*/
+.navigation-logo,
+.footer-logo{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     
     color: #2196F3;
@@ -15,12 +17,128 @@
 .logo {
     color: black;
 }
-.footer-logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: aqua;
+}
+.navigation-link-activ,
+.list-link-aktiv{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     
     color: #2196F3;
+}
+.header-list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+.header-list-link:hover,
+.header-list-link:focus {
+    color: aqua;
+}
+.list-link:hover,
+.list-link:focus{
+    color: aqua;
+}
+/*стило для главной*/
+.hero {
+    background: #2F303A;
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*кнопка студии*/
+.hero-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: centr;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    color: #650df1;
+}
+/*кпопки портфолио*/
+.btn-aktiv{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+}
+.btn-aktiv:hover,
+.btn-aktiv:focus{
+    color: #650df1;
+}
+.btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+    background: #F5F4FA;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    color: #650df1;
+}
+
+/*стили для подвала*/
+.footer{
+    background-color: #2F303A;
+}
+.footer-list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+.footer-address-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+a:hover,
+a:focus{
+    color: aqua;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+.section-team{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
 }
