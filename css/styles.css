@@ -1,6 +1,6 @@
 :root{
     --brand-color: #FFFFFF;
-    --font-size: 14px;
+/*    --font-size: 14px;*/
     --line-height: 1.14;
     --letter-spacing: 0.02em;
 }
@@ -24,6 +24,9 @@
 .logo {
     color: #212121;
 }
+.logo-span{
+    color: #FFFFFF;
+}
 .navigation-link {
     font-weight: 500;
     font-size: var(--font-size);
@@ -33,7 +36,7 @@
 }
 .navigation-link:hover,
 .navigation-link:focus {
-    color: aqua;
+    color: #2196F3
 }
 .navigation-link-activ,
 .list-link-aktiv{
@@ -54,15 +57,16 @@
 }
 .header-list-link:hover,
 .header-list-link:focus {
-    color: #00ffff;
+    color: #2196F3
 }
 .list-link:hover,
 .list-link:focus{
-    color: #00ffff;
+    color: #2196F3
 }
 /*стило для главной*/
 .hero {
     background: #2F303A;
+    text-align: center;
 }
 .hero-title{
     font-weight: 900;
@@ -70,9 +74,11 @@
     line-height: 1.36;
     text-align: center;
     color: var(--brand-color);
+    text-transform: uppercase;
 }
 /*кнопка студии*/
 .hero-btn{
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -83,7 +89,7 @@
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    color: #650df1;
+    color: #2196F3
 }
 /*кпопки портфолио*/
 .gallery-btn-aktiv{
@@ -93,10 +99,11 @@
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
+    font-family: inherit;
 }
 .gallery-btn-aktiv:hover,
 .gallery-btn-aktiv:focus{
-    color: #650df1;
+    color:#2196F3
 }
 .gallery-btn{
     font-weight: 500;
@@ -105,10 +112,10 @@
     color: #212121;
     background: #F5F4FA;
     cursor: pointer;
-}
+}   
 .gallery-btn:hover,
 .gallery-btn:focus{
-    color: #650df1;
+    color: #2196F3
 }
 .gallery-title{
     font-weight: 700;
@@ -117,7 +124,6 @@
     letter-spacing: 0.06em;
 }
 .gallery-team{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -134,17 +140,14 @@
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
     
-    color: #757575;
+    color: #ffffff99;
 }
 .footer-address-text{
-    font-weight: 400;
     font-size: var(--font-size);
     line-height: 1.71;
     color: var(--brand-color);
+    font-style: normal;
 }
-a:hover,
-a:focus{
-    color: aqua;
 }
 /*стили для главной*/
 .chip-item-title{
@@ -155,7 +158,6 @@ a:focus{
     text-transform: uppercase;
 }
 .chip-team{
-    font-weight: 400;
     font-size: var(--font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -176,18 +178,7 @@ a:focus{
     letter-spacing: 0.03em;
 }
 .team-team {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #757575;
-}
-
-.section-team{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    
     color: #757575;
 }
