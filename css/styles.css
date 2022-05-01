@@ -1,8 +1,11 @@
 :root{
     --brand-color: #FFFFFF;
+    --team-color: #757575;
     --font-size: 14px;
     --line-height: 1.14;
     --letter-spacing: 0.02em;
+    --text-decoration: none;
+    --cursor: pointer;
 }
 
 .body {
@@ -11,6 +14,9 @@
     font-family: 'Roboto', sans-serif;
 }
 /*стили для шапки*/
+.header {
+    background-color: #FFFFFF;
+}
 .navigation-logo,
 .footer-logo{
     font-family: 'Raleway';
@@ -18,7 +24,7 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: none;
+    text-decoration: var(--text-decoration);
     color: #2196F3;
 }
 .logo {
@@ -32,7 +38,7 @@
     font-size: var(--font-size);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
-    text-decoration: none;
+    text-decoration: var(--text-decoration);
     color: #212121;
 }
 .navigation-link:hover,
@@ -45,7 +51,7 @@
     font-size: var(--font-size);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
-    text-decoration: none;
+    text-decoration: var(--text-decoration);
     color: #2196F3;
 }
 .header-list-link{
@@ -53,8 +59,8 @@
     font-size: var(--font-size);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
-    text-decoration: none;
-    color: #757575;
+    text-decoration: var(--text-decoration);
+    color: var(--team-color);
 }
 .header-list-link:hover,
 .header-list-link:focus {
@@ -84,7 +90,7 @@
     line-height: 1.87;
     background-color: #2196F3;
     color: var(--brand-color);
-    cursor: pointer;
+    cursor: var(--cursor);
     font-family: inherit;
 }
 .hero-btn:hover,
@@ -98,7 +104,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    cursor: pointer;
+    cursor: var(--cursor);
     font-family: inherit;
 }
 .gallery-btn-aktiv:hover,
@@ -111,7 +117,7 @@
     line-height: 1.62;
     color: #212121;
     background: #F5F4FA;
-    cursor: pointer;
+    cursor: var(--cursor);
     font-family: inherit;
 }   
 .gallery-btn:hover,
@@ -128,7 +134,7 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--team-color);
 }
 
 /*стили для подвала*/
@@ -140,8 +146,8 @@
     font-size: var(--font-size);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
-    text-decoration: none;
-    color: #ffffff99;
+    text-decoration: var(--text-decoration);
+    color: #FFFFFF60 ;
 }
 .footer-address {
     font-style: normal;
@@ -154,9 +160,6 @@
 }
 /*стили для главной*/
 
-.team {
-    background: #F5F4FA;
-}
 .chip-item-title{
     font-weight: 700;
     font-size: var(--font-size);
@@ -168,7 +171,7 @@
     font-size: var(--font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--team-color);
 }
 .job-title,
 .team-title {
@@ -189,5 +192,5 @@
     line-height: 1.18;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--team-color);
 }
